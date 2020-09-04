@@ -1,0 +1,311 @@
+.technology {
+  background-color: #fff5f6;
+}
+.title {
+  font-family: $title-fonts;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 125px;
+  color: $tex-color-pink;
+}
+
+.span-title {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: 16px;
+
+  color: $tex-color-red;
+}
+
+.description {
+  font-family: $main-fonts;
+
+  font-weight: 500;
+
+  color: $tex-color-dark;
+}
+
+.products-description {
+  font-family: $main-fonts;
+  font-weight: 500;
+
+  color: $tex-color-grey;
+}
+
+.numbers {
+  font-family: $title-fonts;
+  letter-spacing: 0.04em;
+
+  color: $tex-color-red;
+}
+
+.consist-description {
+  font-family: $main-fonts;
+  font-style: normal;
+  font-weight: 900;
+  color: $tex-color-dark;
+}
+
+.list {
+  list-style: none;
+}
+
+.technology-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: $main-fonts;
+  font-weight: 700;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  font-size: 16px;
+  line-height: 1.31;
+  color: $btn-color;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background: $tex-color-grey;
+  }
+}
+
+.technology-button-icon {
+  width: 28px;
+  height: 28px;
+  fill: $btn-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .title {
+    font-size: 18px;
+    line-height: 1.17;
+    margin-bottom: 26px;
+  }
+  .span-title {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+  .technology-image {
+    display: block;
+    margin-bottom: 46px;
+  }
+  .technology-image {
+    width: 100%;
+  }
+
+  .products-description {
+    background-image: url(../images/sectionbg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .description {
+    display: block;
+    width: 220px;
+    height: 79px;
+    font-size: 12px;
+    line-height: 1.62;
+    text-align: left;
+    margin-bottom: 47px;
+  }
+
+  .products-description {
+    width: 220px;
+    height: 155px;
+    font-size: 12px;
+    line-height: 1.62;
+    text-align: left;
+    margin-bottom: 47px;
+    margin-top: 47px;
+  }
+  .products-description-span {
+    display: block;
+    width: 220px;
+    margin-top: 15px;
+  }
+  .technology-button {
+    margin-bottom: 39px;
+  }
+  .consist {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 97px;
+  }
+
+  .consist-item {
+    margin-bottom: 38px;
+  }
+  .consist-icon {
+    margin-bottom: 16px;
+  }
+  .numbers {
+    font-size: 36px;
+    line-height: 1.14;
+    margin-bottom: 15px;
+  }
+  .consist-description {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .technology-part {
+    display: flex;
+    /* align-items: center;*/
+    margin-bottom: 62px;
+  }
+
+  .consist {
+    display: flex;
+  }
+  .technology-button {
+    width: 161px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .title {
+    font-size: 26px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
+  .span-title {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+  .technology-part {
+    margin-bottom: 62px;
+  }
+
+  .technology-description {
+    margin-left: 17px;
+  }
+
+  .description {
+    width: 340px;
+    height: 79px;
+    font-size: 14px;
+    line-height: 1.77;
+
+    text-align: left;
+  }
+  .technology-button {
+    width: 174px;
+    margin-top: 62px;
+  }
+  .products-description {
+    width: 340px;
+    height: 155px;
+    font-size: 14px;
+    line-height: 1.77;
+    text-align: left;
+    margin-top: 49px;
+  }
+  .products-description-span {
+    display: block;
+    margin-top: 15px;
+  }
+  .consist {
+    margin-bottom: 140px;
+  }
+
+  .consist-item {
+    margin-right: 60px;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  .consist-icon {
+    margin-bottom: 36px;
+  }
+  .numbers {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 13px;
+  }
+  .consist-description {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-bottom: 55px;
+  }
+  .span-title {
+    font-size: 58px;
+    line-height: 1.14;
+  }
+  .technology-part {
+    background-image: url(../images/sectionbg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 65px;
+  }
+  .technology-description {
+    margin-left: 74px;
+  }
+  .technology-button {
+    margin-top: 45px;
+  }
+  .description {
+    width: 463px;
+    height: 79px;
+    font-size: 16px;
+    line-height: 1.77;
+  }
+  .products-description-span {
+    margin-top: 35px;
+  }
+  .products-description {
+    width: 463px;
+    height: 155px;
+    font-size: 16px;
+    line-height: 1.77;
+    margin-top: 35px;
+  }
+  .products-description-span {
+    display: block;
+    margin-top: 30px;
+  }
+  .technology-button {
+    width: 180px;
+  }
+
+  .consist {
+    margin-bottom: 139px;
+  }
+  .consist-item {
+    margin-right: 30px;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  .numbers {
+    font-size: 58px;
+    line-height: 1.14;
+    margin-bottom: 15px;
+  }
+
+  .consist-icon {
+    margin-bottom: 40px;
+  }
+
+  .consist-description {
+    font-size: 16px;
+    line-height: 1.76;
+
+    letter-spacing: 0.02em;
+  }
+}

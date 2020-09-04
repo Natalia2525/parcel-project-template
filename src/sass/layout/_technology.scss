@@ -80,6 +80,10 @@
   fill: $btn-color;
 }
 
+.photos {
+  width: 100%;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .title {
     font-size: 18px;
@@ -128,7 +132,14 @@
     margin-top: 15px;
   }
   .technology-button {
+    width: 174px;
+    height: 44px;
     margin-bottom: 39px;
+  }
+
+  .button-text {
+    font-size: 14px;
+    line-height: 1.29;
   }
   .consist {
     padding: 0;
@@ -151,7 +162,7 @@
     font-size: 12px;
     line-height: 1.7;
   }
-  .photos {
+  .technology {
     margin-bottom: 148px;
   }
 }
@@ -170,6 +181,10 @@
     width: 161px;
     margin-left: 0;
     margin-right: 0;
+  }
+  .button-text {
+    font-size: 16px;
+    line-height: 1.31;
   }
 }
 
@@ -237,7 +252,7 @@
     font-size: 14px;
     line-height: 1.71;
   }
-  .photos {
+  .technology {
     margin-bottom: 121px;
   }
 }
@@ -314,7 +329,7 @@
 
     letter-spacing: 0.02em;
   }
-  .photos {
+  .technology {
     margin-bottom: 123px;
   }
 }

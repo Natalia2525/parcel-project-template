@@ -102,8 +102,10 @@
     width: 100%;
   }
 
-  .products-description {
+  .background {
     background-image: url(../images/sectionbg-mobile.png);
+    background-position: 0px 766px;
+
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -267,8 +269,10 @@
     font-size: 58px;
     line-height: 1.14;
   }
-  .technology-part {
+  .background {
     background-image: url(../images/sectionbg-desktop.png);
+    background-position: 0px 342px;
+
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 65px;

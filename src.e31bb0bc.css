@@ -906,8 +906,9 @@ body {
     width: 100%;
   }
 
-  .products-description {
+  .background {
     background-image: url(/sectionbg-mobile.7f832254.png);
+    background-position: 0px 766px;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -1089,14 +1090,16 @@ body {
     line-height: 1.14;
   }
 
-  .technology-part {
+  .background {
     background-image: url(/sectionbg-desktop.71e97f45.png);
+    background-position: 0px 342px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 65px;
   }
 
   .technology-description {
+    padding-top: 50px;
     margin-left: 74px;
   }
 
@@ -1157,6 +1160,10 @@ body {
     font-size: 16px;
     line-height: 1.76;
     letter-spacing: 0.02em;
+  }
+
+  .technology-image {
+    opacity: 0.3;
   }
 
   .technology {
@@ -1422,6 +1429,11 @@ body {
   margin: auto;
   background-image: linear-gradient(#ffffff 0% 10%, #fff5f6 10% 100%);
   min-height: 870px;
+}
+@media screen and (max-width: 767px) {
+  .location-section {
+    padding-bottom: 113px;
+  }
 }
 @media screen and (max-width: 767px) {
   .location-section {

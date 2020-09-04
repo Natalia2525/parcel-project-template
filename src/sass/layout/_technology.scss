@@ -151,6 +151,9 @@
     font-size: 12px;
     line-height: 1.7;
   }
+  .photos {
+    margin-bottom: 148px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -234,6 +237,9 @@
     font-size: 14px;
     line-height: 1.71;
   }
+  .photos {
+    margin-bottom: 121px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -307,5 +313,8 @@
     line-height: 1.76;
 
     letter-spacing: 0.02em;
+  }
+  .photos {
+    margin-bottom: 123px;
   }
 }

@@ -1,4 +1,4 @@
-.technology {
+.background {
   background-color: #fff5f6;
 }
 .title {
@@ -70,7 +70,7 @@
   cursor: pointer;
   &:hover,
   &:focus {
-    background: $tex-color-grey;
+    background: #ecebeb;
   }
 }
 
@@ -151,6 +151,9 @@
     font-size: 12px;
     line-height: 1.7;
   }
+  .photos {
+    margin-bottom: 148px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -213,7 +216,7 @@
     margin-top: 15px;
   }
   .consist {
-    margin-bottom: 140px;
+    margin-bottom: 80px;
   }
 
   .consist-item {
@@ -233,6 +236,9 @@
   .consist-description {
     font-size: 14px;
     line-height: 1.71;
+  }
+  .photos {
+    margin-bottom: 121px;
   }
 }
 
@@ -307,5 +313,8 @@
     line-height: 1.76;
 
     letter-spacing: 0.02em;
+  }
+  .photos {
+    margin-bottom: 123px;
   }
 }

@@ -5,6 +5,11 @@
   margin: auto;
   background-image: linear-gradient(#ffffff 0% 10%, #fff5f6 10% 100%);
   min-height: 870px;
+
+  @media screen and(max-width:767px) {
+    padding-bottom: 113px;
+  }
+
   @media screen and (max-width: 767px) {
     min-width: 300px;
   }

@@ -102,8 +102,10 @@
     width: 100%;
   }
 
-  .products-description {
+  .background {
     background-image: url(../images/sectionbg-mobile.png);
+    background-position: 0px 766px;
+
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -267,13 +269,16 @@
     font-size: 58px;
     line-height: 1.14;
   }
-  .technology-part {
+  .background {
     background-image: url(../images/sectionbg-desktop.png);
+    background-position: 0px 342px;
+
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 65px;
   }
   .technology-description {
+    padding-top: 50px;
     margin-left: 74px;
   }
   .technology-button {
@@ -328,6 +333,10 @@
     line-height: 1.76;
 
     letter-spacing: 0.02em;
+  }
+
+  .technology-image {
+    opacity: 0.3;
   }
   .technology {
     margin-bottom: 123px;

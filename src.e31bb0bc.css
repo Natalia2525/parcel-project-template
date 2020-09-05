@@ -299,12 +299,16 @@ body {
   }
 }
 
+.hero-section {
+  border: 1px solid #ffb8ca;
+  background-color: #ffb8ca;
+  width: 100%;
+}
+
 .hero {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #ffb8ca;
-  background-color: #ffb8ca;
 }
 
 .hero-title {
@@ -650,6 +654,12 @@ body {
     line-height: 1, 28;
   }
 }
+@media screen and (min-width: 1280px) {
+  .hero {
+    width: 1280px;
+  }
+}
+
 .product {
   text-align: center;
   padding-top: 121px;
